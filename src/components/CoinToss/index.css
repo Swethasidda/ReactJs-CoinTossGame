@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.big-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.small-container {
+  background-color: #ffffff;
+  background-size: cover;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 10px;
+}
+.heading {
+  color: #a35200;
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.para {
+  color: #334155;
+  font-family: 'roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+.image {
+  height: 100px;
+  width: 100px;
+  align-self: center;
+}
+.button {
+  cursor: pointer;
+  outline: none;
+  background-color: #f9d423;
+  color: #a35200;
+  font-family: 'roboto';
+  font-size: 12px;
+  font-weight: bold;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+@media all and (min-width: 576px) {
+  .count-conatiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media all and (min-width: 768px) {
+  .count-conatiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 10px;
+  }
+}
+.para2 {
+  color: #475569;
+  font-family: 'roboto';
+  font-weight: normal;
+  font-size: 12px;
+}
